@@ -1,0 +1,44 @@
+:root {
+  /* === COLOR === */
+  --clr-violet-500: hsl(206, 6%, 90%);
+  --clr-violet-400: hsl(270, 7%, 64%);
+  --clr-violet-300: hsl(271, 15%, 43%);
+  --clr-violet-200: hsl(276, 100%, 81%);
+  --clr-violet-250: hsl(276, 30%, 92.5%);
+  --clr-violet-100: hsl(276, 55%, 52%);
+  --clr-violet-0: hsl(271, 36%, 24%);
+
+  --clr-app-bg: hsl(270, 20%, 96%);
+  --clr-app-submit-btn: hsl(271, 36%, 24%);
+  --clr-radio-outline: hsl(289, 100%, 72%);
+
+  --grad-light: hsl(293, 100%, 63%);
+  --grad-dark: hsl(264, 100%, 61%);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  --fs-1000: 2.5rem;
+  --fs-400: 1rem;
+  --fs-300: 0.75rem;
+  --fs-250: 0.625rem;
+  --fs-200: 0.5rem;
+  --fs-100: 0.25rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+  /* background-color: red; */
+}

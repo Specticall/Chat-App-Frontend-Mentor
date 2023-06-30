@@ -1,51 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="phone.css" />
+    <link rel="stylesheet" href="phone-chat.css" />
 
-  Samuel Green
-  Available to Walk
+    <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  That sounds great. I’d be happy with that.
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  Could you send over some pictures of your dog, please?
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-  Here are a few pictures. She’s a happy girl!
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-wrapper">
+      <div class="bg bg-purple"></div>
+      <div class="bg bg-white"></div>
+      <main>
+        <div class="phone">
+          <div class="phone-top">
+            <div class="phone-top__left">
+              <i class="bx bx-chevron-left"></i>
+              <div class="phone-top__pfp"></div>
+              <h2 class="phone-top__user-info">
+                Samuel Green
+                <span>Available to Walk</span>
+              </h2>
+            </div>
 
-  Can you make it?
+            <i class="bx bx-dots-vertical-rounded"></i>
+          </div>
+          <div class="phone-chat">
+            <div class="phone-chat__bubble phone-chat__bubble--them">
+              <p class="phone-chat__text">
+                That sounds great. I’d be happy with that.
+              </p>
+              <p class="phone-chat__text">
+                Could you send over some pictures of your dog, please?
+              </p>
+            </div>
+            <div class="phone-chat__bubble phone-chat__bubble--us">
+              <p class="phone-chat__text--img">
+                <img src="images/dog-image-1.jpg" alt="image" />
+                <img src="images/dog-image-2.jpg" alt="image" />
+                <img src="images/dog-image-3.jpg" alt="image" />
+              </p>
+              <p class="phone-chat__text">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="phone-chat__text">Can you make it?</p>
+            </div>
+            <div class="phone-chat__bubble phone-chat__bubble--them">
+              <p class="phone-chat__text">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+              <div class="phone-chat__text phone-chat__price">
+                <div class="phone-chat__radio--container">
+                  <div class="phone-chat__radio"></div>
+                  30 minute walk $29
+                </div>
+                <span>$29</span>
+              </div>
+              <div class="phone-chat__text phone-chat__price">
+                <div class="phone-chat__radio--container">
+                  <div class="phone-chat__radio"></div>
+                  1 hour walk
+                </div>
+                <span>$49</span>
+              </div>
+            </div>
+          </div>
+          <div class="phone-chat__input">
+            <p>Type a message...</p>
+            <div class="phone-chat__enter">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+          </div>
+        </div>
 
-  She looks so happy! The time we discussed works. How long shall I take her out for?
+        <div class="main-text">
+          <h1 class="main-title">Simple booking</h1>
+          <p class="main-paragraph">
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </main>
+    </div>
 
-  30 minute walk
-  $29
+    <!--  Type a message… Simple booking Stay in touch with our dog
+    walkers through the chat interface. This makes it easy to discuss
+    arrangements and make bookings. Once the walk has been completed you can
+    rate your walker and book again all through the chat.
 
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
 </html>

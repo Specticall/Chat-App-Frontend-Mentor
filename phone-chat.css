@@ -1,0 +1,121 @@
+.phone-chat {
+  padding: 1rem 0.75rem 0rem 0.75rem;
+}
+
+.phone-chat__bubble {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.phone-chat__bubble:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.phone-chat__bubble--them {
+  color: var(--clr-violet-100);
+}
+
+.phone-chat__bubble--us {
+  align-items: end;
+  color: var(--clr-violet-300);
+}
+
+.phone-chat__text {
+  max-width: 8.5rem;
+  font-size: var(--fs-200);
+  line-height: 1.4;
+}
+
+.phone-chat__text {
+  padding: 0.4rem;
+}
+
+.phone-chat__bubble--them .phone-chat__text {
+  border-radius: 0.6rem 0.6rem 0.6rem 0.2rem;
+  background-color: var(--clr-violet-250);
+}
+
+.phone-chat__bubble--us .phone-chat__text {
+  border-radius: 0.6rem 0.6rem 0.2rem 0.6rem;
+  background-color: white;
+
+  box-shadow: 0 0.25rem 0.5rem 0.05rem hsla(271, 36%, 24%, 0.072);
+}
+
+.phone-chat__text--img {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.phone-chat__text--img img {
+  width: 2.75rem;
+  border-radius: 0.5rem;
+}
+
+.phone-chat__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+
+  max-width: 10rem;
+
+  color: var(--clr-violet-500);
+  background: linear-gradient(to left, var(--grad-dark), var(--grad-light));
+}
+
+.phone-chat__radio--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.phone-chat__price span {
+  color: white;
+  font-size: var(--fs-300);
+  font-weight: var(--fw-semi-bold);
+}
+
+.phone-chat__radio {
+  width: 0.6rem;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  border: 1px solid var(--clr-radio-outline);
+}
+
+.phone-chat__input {
+  font-size: var(--fs-200);
+  color: var(--clr-violet-400);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 5rem;
+
+  position: relative;
+}
+.phone-chat__input p {
+  padding: 1rem;
+}
+
+.phone-chat__enter {
+  background-color: var(--clr-app-submit-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 1.25rem;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  aspect-ratio: 1;
+  margin: 0.4rem;
+
+  color: white;
+}
